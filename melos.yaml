@@ -1,0 +1,11 @@
+name: layers_template
+
+packages:
+  - packages/*
+
+scripts:
+  lint:all:
+    description: Run all linters
+    run: melos run analyze && melos run format && melos run lint
+  analyze:
+    exec: dart analyze .

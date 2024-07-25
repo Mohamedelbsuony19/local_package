@@ -1,0 +1,11 @@
+export 'src/auth_repo.dart';
+export 'src/cart_repo.dart';
+export 'src/category_repo.dart';
+export 'src/contact_repo.dart';
+export 'src/coupon_repo.dart';
+export 'src/fulfillment_centers_repo.dart';
+export 'src/inventory_repo.dart';
+export 'src/orders_repo.dart';
+export 'src/products_repo.dart';
+export 'src/user_repo.dart';
+export 'src/wishlist_repo.dart';

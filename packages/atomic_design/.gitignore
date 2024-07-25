@@ -1,0 +1,9 @@
+*pubspec.lock
+../pubspec.lock
+pubspec.lock
+.dart_tool/
+.dart_tool
+.DS_Store
+./.DS_Store
+.flutter-plugins-dependencies
+.flutter-plugins

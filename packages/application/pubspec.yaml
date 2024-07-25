@@ -1,0 +1,32 @@
+name: application
+description: "A new Flutter project."
+version: 0.0.1
+publish_to: "none"
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  core:
+    git:
+      url: https://github.com/TOTPLATFORM/mobile-layers.git
+      path: packages/core
+      ref: dev
+  domain:
+    git:
+      url: https://github.com/TOTPLATFORM/mobile-layers.git
+      path: packages/domain
+      ref: dev
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  shared_preferences: ^2.2.2
+  mocktail: ^1.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+flutter:

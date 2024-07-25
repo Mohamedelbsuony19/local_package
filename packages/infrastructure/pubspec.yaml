@@ -1,0 +1,37 @@
+name: infrastructure
+description: "A new Flutter project."
+version: 0.0.1
+publish_to: "none"
+
+environment:
+  sdk: ">=3.3.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dartz: ^0.10.1
+  shared_preferences: ^2.2.2
+
+  core:
+    git:
+      url: https://github.com/TOTPLATFORM/mobile-layers.git
+      path: packages/core
+      ref: dev
+  domain:
+    git:
+      url: https://github.com/TOTPLATFORM/mobile-layers.git
+      path: packages/domain
+      ref: dev
+
+  dio: ^5.4.1
+  graphql_flutter: ^5.1.2
+  http: ^1.2.1
+  mocktail: ^1.0.3
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
